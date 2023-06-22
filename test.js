@@ -104,3 +104,12 @@ test('Filling a form', async t => {
         .click(page.submitButton)
         .expect(page.results.innerText).contains('Bruce Wayne');
 });
+
+test('Maximize the browser window', async t => {
+  await t.maximizeWindow();
+});
+
+
+test('resize the browser window', async t => {
+  await t.resizeWindow(640, 1080);
+});
