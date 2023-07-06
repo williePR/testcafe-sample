@@ -1,5 +1,5 @@
 {
-    "Chrome@94.0:Windows 10": {
+    "Internet Explorer@11.0:Windows 10": {
         "build": "TestCafe Demo",
         "network": true,
         "visual": true,
